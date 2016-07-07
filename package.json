@@ -1,0 +1,49 @@
+{
+  "name": "inferno-gear",
+  "version": "1.0.0",
+  "description": "Inferno examples",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Havunen/inferno-gear.git"
+  },
+  "keywords": [
+    "inferno",
+    "infernojs",
+    "es6",
+    "components",
+    "infernogear"
+  ],
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "author": "Sampo Kivistö",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Havunen/inferno-gear/issues"
+  },
+  "homepage": "https://github.com/Havunen/inferno-gear#readme",
+  "dependencies": {
+    "inferno-src": "git://github.com/trueadm/inferno.git#0.7.14"
+  },
+  "devDependencies": {
+    "babel-eslint": "6.1.0",
+    "babel-plugin-inferno": "^0.7.6",
+    "babel-plugin-syntax-jsx": "^6.8.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "eslint": "^3.0.1",
+    "rollup": "^0.33.0",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-plugin-commonjs": "^3.1.0",
+    "rollup-plugin-json": "^2.0.1",
+    "rollup-plugin-multi-entry": "^2.0.0",
+    "rollup-plugin-node-resolve": "^1.7.1",
+    "rollup-plugin-npm": "^2.0.0",
+    "rollup-plugin-replace": "^1.1.1"
+  }
+}
